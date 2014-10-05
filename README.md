@@ -13,9 +13,9 @@ $ npm i --save is-dom
 
 ## Overview
 ```js
-var checkIfDOM = require('is-dom');
+var isDom = require('is-dom');
 
-checkIfDom(window.document);
+isDom(window.document);
 // => true
 ```
 

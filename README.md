@@ -20,8 +20,7 @@ isDom(window.document);
 ```
 
 ## License
-[MIT](https://tldrlegal.com/license/mit-license) ©
-[yoshuawuyts](http://yoshuawuyts.com/)
+[MIT](https://tldrlegal.com/license/mit-license)
 
 [npm-image]: https://img.shields.io/npm/v/is-dom.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/is-dom

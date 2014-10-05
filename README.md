@@ -8,10 +8,10 @@ Check if the given object is a dom node.
 
 ## Installation
 ```bash
-$ npm i --save is-dom
+npm install is-dom
 ```
 
-## Overview
+## Usage
 ```js
 var isDom = require('is-dom');
 

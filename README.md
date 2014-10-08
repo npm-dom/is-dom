@@ -24,9 +24,9 @@ isDom(window.document);
 
 [npm-image]: https://img.shields.io/npm/v/is-dom.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/is-dom
-[travis-image]: https://img.shields.io/travis/yoshuawuyts/is-dom.svg?style=flat-square
-[travis-url]: https://travis-ci.org/yoshuawuyts/is-dom
-[coveralls-image]: https://img.shields.io/coveralls/yoshuawuyts/is-dom.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/yoshuawuyts/is-dom?branch=master
+[travis-image]: https://img.shields.io/travis/npm-dom/is-dom.svg?style=flat-square
+[travis-url]: https://travis-ci.org/npm-dom/is-dom
+[coveralls-image]: https://img.shields.io/coveralls/npm-dom/is-dom.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/npm-dom/is-dom?branch=master
 [downloads-image]: http://img.shields.io/npm/dm/is-dom.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/is-dom

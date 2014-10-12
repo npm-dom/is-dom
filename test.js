@@ -22,6 +22,11 @@ beforeEach(function() {
 
 describe('is-dom', function() {
   it('should check if supplied argument is a dom node', function() {
+    isDom(null).should.equal(false)
+    isDom(false).should.equal(false)
+    isDom(new Date()).should.equal(false)
+    isDom().should.equal(false)
+    isDom([]).should.equal(false)
     isDom(2).should.equal(false)
     isDom('foo').should.equal(false)
     isDom(/asda/).should.equal(false)

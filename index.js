@@ -9,7 +9,7 @@
  */
 
 module.exports = function isNode(val){
-  if (typeof val !== 'object') return false;
+  if (!val || typeof val !== 'object') return false;
   if ('object' == typeof window.Node) return val instanceof window.Node;
   return 'number' == typeof val.nodeType && 'string' == typeof val.nodeName;
 }

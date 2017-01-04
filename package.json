@@ -4,7 +4,8 @@
   "description": "Check if the given object is a dom node",
   "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "standard && nyc node test.js",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov"
   },
   "repository": "npm-dom/is-dom",
   "keywords": [
@@ -15,18 +16,12 @@
     "dom object"
   ],
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
-    "istanbul": "^0.3.2",
-    "jsdom": "^1.0.1",
-    "make-lint": "^1.0.1",
-    "mocha": "^1.21.4",
-    "should": "^4.0.4"
+  "dependencies": {
+    "jsdom": "^9.9.1"
   },
-  "files": [
-    "lib",
-    "LICENSE",
-    "index.js",
-    "HISTORY.md"
-  ]
+  "devDependencies": {
+    "nyc": "^10.0.0",
+    "standard": "^8.6.0",
+    "tape": "^4.6.3"
+  }
 }

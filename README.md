@@ -7,15 +7,15 @@
 Check if the given object is a dom node.
 
 ## Installation
-```bash
-npm install is-dom
+```sh
+$ npm install is-dom
 ```
 
 ## Usage
 ```js
-var isDom = require('is-dom');
+var isDom = require('is-dom')
 
-isDom(window.document);
+isDom(window.document)
 // => true
 ```
 

@@ -20,3 +20,4 @@ npm-debug.log
 
 # osx
 .DS_Store
+.nyc_output

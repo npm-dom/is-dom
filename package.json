@@ -16,10 +16,8 @@
     "dom object"
   ],
   "license": "MIT",
-  "dependencies": {
-    "jsdom": "^9.9.1"
-  },
   "devDependencies": {
+    "jsdom": "^9.9.1",
     "nyc": "^10.0.0",
     "standard": "^8.6.0",
     "tape": "^4.6.3"

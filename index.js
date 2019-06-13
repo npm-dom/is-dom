@@ -1,10 +1,14 @@
-module.exports = isNode
+'use strict'
+var isObject = require('is-object')
+var isWindow = require('is-window')
 
 function isNode (val) {
-  return (!val || typeof val !== 'object')
+  return !isObject(val)
     ? false
-    : (typeof window === 'object' && typeof window.Node === 'object')
-      ? (val instanceof window.Node)
+    : (!isWindow(window) || typeof window.Node !== 'function')
+      ? false
       : (typeof val.nodeType === 'number') &&
         (typeof val.nodeName === 'string')
 }
+
+module.exports = isNode

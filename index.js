@@ -2,7 +2,7 @@ const isObject = require(`is-object`)
 const isWindow = require(`is-window`)
 
 function isNode(val) {
-	if (!isObject(val) || !isWindow(window) || typeof window.Node !== `function`) {
+	if (!isObject(val) || !isWindow(window) || !(`Node` in window)) {
 		return false
 	}
 
